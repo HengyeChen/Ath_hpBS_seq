@@ -30,7 +30,9 @@ The number of DMRs are saved in sig_summary.txt. The indexes of 1kb bin, p-value
 
 
 ## Other information 
-sample reference files are uploaded in bed.gz format. Some files are not uploaded due to the large sizes.
+Sample reference files are uploaded in bed.gz format. Some files are not uploaded due to the large sizes.
+Amazon Q provides assistance with writing Python scripts.
+
 
 
 
