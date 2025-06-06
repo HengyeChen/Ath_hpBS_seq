@@ -23,7 +23,7 @@ CCG has 8 statuses. We use 000, 011, 010, 001, 100, 101, 110, and 111 to represe
 ### Input files
 all.count files
 ### Software and package requirement
-bedtools, Python 3.12, Scipy, and Numpy
+bedtools, Python 3.10, Scipy 1.15.2, and Numpy
 ### Output files
 p-values are saved in .me.txt and .hemi.txt for full- and hemi-methylation in all 1kb bins. 
 The number of DMRs are saved in sig_summary.txt. The indexes of 1kb bin, p-values, and methylation frequencies of DMRs are save in .sig files.
