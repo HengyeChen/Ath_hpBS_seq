@@ -16,6 +16,8 @@ _hp.bam files from step1
 bedtools
 ### Output files
 Counts of unme, hemiW, hemiC, and fully-methylated dyads at each position are saved in *.all.count files. These files are in bed format. The four column after #chr #pos1 #pos2 are the count of unme, hemiW, hemiC, and fully-methylated dyads, respectively.
+CHH methylation only has two status unme and me. 
+CCG has 8 statuses. We use 000, 011, 010, 001, 100, 101, 110, and 111 to represent the eight statuses at single molecule level. This information is saved in .matrix file. CSG position is not included in the matrix file.
 
 ## Step3. Call DMRs
 ### Input files
